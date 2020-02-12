@@ -7,7 +7,7 @@ Created on Tue Feb 11 13:36:57 2020
 
 import math as m
 from bresenham.bresenham import bresenham as bresen
-from map_load import Map 
+from map_load.map_load import Map 
 
 PI = m.pi
 
