@@ -60,7 +60,7 @@ def Get_InterSection(P, G, M):
     return B
 
 if __name__ == '__main__':
-    img_name = 'map_load/testmap.yaml'
+    img_name = 'testmap.yaml'
     A = [4,8,PI/4]
     M = Map(img_name)
     B1, B2 = Find_Beside_Points(A, 10)
